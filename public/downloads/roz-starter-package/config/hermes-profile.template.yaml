@@ -1,0 +1,39 @@
+# Sanitized Hermes/Roz profile template
+# Copy into a local Hermes profile and complete account connection through OAuth-style setup.
+# No real credentials belong in this file.
+
+profile:
+  name: roz
+  assistant_name: Roz
+  purpose: personal assistant starter kit
+
+model:
+  provider: chatgpt-subscription
+  auth_method: oauth_or_account_sign_in
+  notes: "Use your existing ChatGPT/OpenAI subscription/account through the Roz setup app where supported."
+
+tools:
+  browser: true
+  terminal: true
+  file: true
+  skills: true
+  memory: false
+
+integrations:
+  google:
+    auth_method: oauth
+    scopes:
+      - email
+      - calendar
+      - drive
+  telegram:
+    auth_method: one_time_setup_code
+    onboarding_bot: prebuilt_roz_onboarding_bot
+    allowlist_status: pending
+  chatgpt:
+    auth_method: oauth_or_account_sign_in
+
+first_run:
+  demo_data: data/pre-canned-workday.json
+  require_human_approval_before_send: true
+  credentials: "[REDACTED]"

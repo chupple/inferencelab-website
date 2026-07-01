@@ -1,0 +1,32 @@
+{
+  "assistant": "Roz",
+  "scenario": "guided personal-assistant workday",
+  "email": [
+    {
+      "from": "Maya",
+      "subject": "Launch notes",
+      "priority": "reply before lunch",
+      "draft": "Thanks — I added the latest launch notes and will bring the updated packet."
+    },
+    {
+      "from": "Vendor",
+      "subject": "Invoice approval",
+      "priority": "review today",
+      "draft": "Approved. Please attach the receipt to the shared folder."
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Project sync",
+      "recommended_time": "Thursday 10:30",
+      "reason": "avoids focus block and keeps attendees in working hours"
+    }
+  ],
+  "files": [
+    "Client launch packet/Proposal v4.pdf",
+    "Client launch packet/Budget.xlsx",
+    "Client launch packet/Meeting transcript.md",
+    "Client launch packet/Checklist.md"
+  ],
+  "secrets": "[REDACTED]"
+}

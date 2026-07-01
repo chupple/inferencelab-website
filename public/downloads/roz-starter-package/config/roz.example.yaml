@@ -1,0 +1,32 @@
+# Roz starter package example configuration
+# Copy this file locally and complete setup through the OAuth-first Roz setup app.
+# Do not paste real secrets into documentation, support messages, or screenshots.
+
+profile:
+  name: roz-starter
+  mode: local-first
+
+accounts:
+  chatgpt:
+    requirement: existing_chatgpt_subscription
+    auth_method: oauth_or_account_sign_in
+    status: pending
+  google:
+    account: buyer@example.com
+    auth_method: oauth
+    status: pending
+  telegram:
+    onboarding_bot: prebuilt_roz_onboarding_bot
+    setup_code: "[REDACTED]"
+    allowlist_status: pending
+
+integrations:
+  email: guided
+  calendar: guided
+  files: local
+  app_api_connectors: optional
+
+first_run:
+  use_pre_canned_demo_data: true
+  show_screenshot_style_walkthrough: true
+  require_user_approval_before_sending: true

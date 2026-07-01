@@ -1,0 +1,22 @@
+{
+  "status_code": 200,
+  "editorId": "wmdvw7g1vmyahxcwawve1d",
+  "isGenerating": false,
+  "activeArtifactId": "222391f2-27ec-4a6d-afad-c0c1cf3aa90b",
+  "availableFiles": [
+    "index.tsx",
+    "App.tsx",
+    "package.json",
+    "index.css",
+    "tailwind.config.js",
+    "canvas.manifest.js",
+    "useScreenInit.js",
+    "components/Navbar.tsx",
+    "components/Hero.tsx",
+    "components/HowItWorks.tsx",
+    "components/Features.tsx",
+    "components/Setup.tsx",
+    "components/Pricing.tsx",
+    "components/Footer.tsx"
+  ]
+}
