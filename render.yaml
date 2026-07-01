@@ -2,6 +2,7 @@ services:
   - type: web
     name: inferencelab-website
     runtime: static
+    rootDir: .
     buildCommand: npm run build
-    staticPublishPath: dist
+    staticPublishPath: ./dist
     autoDeploy: true
