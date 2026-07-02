@@ -1,5 +1,8 @@
 import { Check, Zap } from 'lucide-react'
 export function Pricing() {
+  const shopifyProductUrl =
+    'https://shop.inferencelab.app/products/roz-starter-package?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web'
+
   return (
     <section id="pricing" className="py-24">
       <div className="max-w-4xl mx-auto px-6">
@@ -45,7 +48,9 @@ export function Pricing() {
               </div>
 
               <a
-                href="mailto:hello@inferencelab.app?subject=InferenceLab%20Agent%20Starter%20Kit"
+                href={shopifyProductUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full py-4 rounded-xl bg-white text-black font-semibold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2 mb-4"
               >
                 <Zap className="w-4 h-4" />

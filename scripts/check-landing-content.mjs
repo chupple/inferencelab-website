@@ -37,6 +37,7 @@ const required = [
   'Frictionless Setup',
   'Start using Roz today',
   'Buy Now',
+  'https://shop.inferencelab.app/products/roz-starter-package?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web',
   'One-time purchase',
   'Mac & Windows Installers',
   'Local orchestration engine',
